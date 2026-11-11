@@ -1,33 +1,240 @@
-# Hi there! 👋 I'm Dhruval Makwana
 
-## Computer Science Graduate | Full-Stack Developer | AI/ML Enthusiast
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1500" height="500" viewBox="0 0 1500 500">
 
-🔭 Currently working as Software Developer at Vandanam SmartTech.
+<defs>
+  <linearGradient id="bg" x2="1" y2="1">
+    <stop stop-color="#151525"/>
+    <stop offset="100%" stop-color="#202037"/>
+  </linearGradient>
 
-🌱 Exploring Data Science and Artificial Intelligence.
+  <linearGradient id="lavender">
+    <stop stop-color="#A78BFA"/>
+    <stop offset="100%" stop-color="#C4B5FD"/>
+  </linearGradient>
 
-💼 Building scalable applications with Java, Spring Boot, Angular & React.
+  <linearGradient id="amber">
+    <stop stop-color="#FFB86B"/>
+    <stop offset="100%" stop-color="#FFD09B"/>
+  </linearGradient>
 
-🚀 Passionate about solving real-world problems through technology.
-## 🛠️ Tech Stack
+  <pattern id="grid" width="32" height="32"
+           patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none"
+          stroke="#A78BFA" stroke-opacity=".07"/>
+  </pattern>
 
-### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
 
-### Frameworks & Libraries
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: .55; }
+      50% { opacity: 1; }
+    }
 
-### Cloud & Tools
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-<!---
-Dhruval2412/Dhruval2412 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    @keyframes flow {
+      to { stroke-dashoffset: -40; }
+    }
+
+    @keyframes rise {
+      0%, 100% { transform: scaleY(.75); }
+      50% { transform: scaleY(1); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+
+    .node {
+      animation: pulse 2.5s ease-in-out infinite;
+    }
+
+    .node:nth-child(2) { animation-delay: .4s; }
+    .node:nth-child(3) { animation-delay: .8s; }
+    .node:nth-child(4) { animation-delay: 1.2s; }
+
+    .moving-line {
+      stroke-dasharray: 5 9;
+      animation: flow 3s linear infinite;
+    }
+
+    .bars {
+      transform-box: fill-box;
+      transform-origin: bottom;
+      animation: rise 2s ease-in-out infinite;
+    }
+
+    .visual {
+      animation: float 5s ease-in-out infinite;
+    }
+  </style>
+</defs>
+
+<!-- BACKGROUND -->
+<rect width="1500" height="500" fill="url(#bg)"/>
+<rect width="1500" height="500" fill="url(#grid)"/>
+
+<!-- TOP LEFT MARKER: MOVED LEFT -->
+<path d="M48 65H80 M48 65V97"
+      fill="none" stroke="#A78BFA"
+      stroke-width="2"/>
+
+<!-- IDENTITY -->
+<text x="100" y="84" fill="#A78BFA"
+      font-family="monospace" font-size="16"
+      letter-spacing="4">
+  DH / DATA INTELLIGENCE LAB
+</text>
+
+<!-- HEADLINE -->
+<text x="100" y="190" fill="#F4F1FA"
+      font-family="Arial,sans-serif"
+      font-size="59" font-weight="bold"
+      letter-spacing="-2">
+  Dhruval
+</text>
+
+<text x="100" y="260" fill="#F4F1FA"
+      font-family="Arial,sans-serif"
+      font-size="59" font-weight="bold"
+      letter-spacing="-2">
+  Makwana<tspan fill="#A78BFA">.</tspan>
+</text>
+
+<text x="103" y="310" fill="#C4B5FD"
+      font-family="monospace" font-size="17"
+      letter-spacing="2">
+  DATA / SYSTEMS / INTELLIGENCE
+</text>
+
+<path d="M103 340H630"
+      stroke="#A78BFA" stroke-opacity=".35"/>
+
+<circle cx="110" cy="380" r="4" fill="#FFB86B"/>
+
+<text x="128" y="386" fill="#D5D0E2"
+      font-family="monospace" font-size="15">
+  Turning complex data into meaningful insights.
+</text>
+
+<!-- RIGHT SIDE ANIMATED VISUAL -->
+<g class="visual">
+
+  <text x="820" y="92" fill="#A78BFA"
+        font-family="monospace" font-size="13"
+        letter-spacing="3">
+    THE DATA JOURNEY
+  </text>
+
+  <!-- Moving connection lines -->
+  <g fill="none" stroke="#A78BFA"
+     stroke-width="2" opacity=".7">
+
+    <path d="M970 245H1010 M1190 245H1200"
+          class="moving-line"/>
+
+  </g>
+
+  <!-- SOURCE -->
+  <rect x="820" y="155" width="180" height="190"
+        rx="12" fill="#24243C"
+        stroke="#5D527F"/>
+
+  <text x="842" y="190" fill="#A78BFA"
+        font-family="monospace" font-size="12">
+    01 / SOURCE
+  </text>
+
+  <g fill="#BDB7CF" font-family="monospace"
+     font-size="12">
+    <text x="842" y="229">customer_id</text>
+    <text x="842" y="256">transaction</text>
+    <text x="842" y="283">timestamp</text>
+  </g>
+
+  <g fill="#FFB86B">
+    <circle class="node" cx="968" cy="225" r="4"/>
+    <circle class="node" cx="968" cy="252" r="4"/>
+    <circle class="node" cx="968" cy="279" r="4"/>
+  </g>
+
+  <!-- PROCESS -->
+  <rect x="1010" y="155" width="180" height="190"
+        rx="12" fill="#29263D"
+        stroke="#806A54"/>
+
+  <text x="1032" y="190" fill="#FFB86B"
+        font-family="monospace" font-size="12">
+    02 / PROCESS
+  </text>
+
+  <g fill="url(#lavender)">
+    <rect x="1035" y="220" width="120" height="9" rx="4"/>
+    <rect x="1035" y="244" width="85" height="9" rx="4"/>
+    <rect x="1035" y="268" width="105" height="9" rx="4"/>
+  </g>
+
+  <text x="1035" y="313" fill="#C6BDCE"
+        font-family="monospace" font-size="11">
+    CLEAN / TRANSFORM
+  </text>
+
+  <!-- INSIGHT -->
+  <rect x="1200" y="155" width="180" height="190"
+        rx="12" fill="#24243C"
+        stroke="#5D527F"/>
+
+  <text x="1222" y="190" fill="#A78BFA"
+        font-family="monospace" font-size="12">
+    03 / INSIGHT
+  </text>
+
+  <!-- Animated chart -->
+  <g fill="url(#amber)">
+    <rect class="bars" x="1230" y="269"
+          width="17" height="38" rx="3"/>
+    <rect class="bars" x="1258" y="238"
+          width="17" height="69" rx="3"
+          style="animation-delay:.3s"/>
+    <rect class="bars" x="1286" y="253"
+          width="17" height="54" rx="3"
+          style="animation-delay:.6s"/>
+    <rect class="bars" x="1314" y="215"
+          width="17" height="92" rx="3"
+          style="animation-delay:.9s"/>
+  </g>
+
+  <path d="M1228 222L1266 210L1294 220L1322 199"
+        fill="none" stroke="#A78BFA"
+        stroke-width="2" class="moving-line"/>
+
+  <circle cx="1322" cy="199" r="10"
+          fill="#A78BFA" opacity=".25"
+          filter="url(#glow)"/>
+
+  <circle class="node" cx="1322" cy="199"
+          r="4" fill="#FFFFFF"/>
+
+</g>
+
+<!-- FOOTER -->
+<path d="M100 435H1400"
+      stroke="#A78BFA" stroke-opacity=".25"/>
+
+<text x="100" y="465" fill="#AFA9C2"
+      font-family="monospace" font-size="13"
+      letter-spacing="2">
+  PYTHON / SQL / SAP / ANALYTICS / APPLIED AI
+</text>
+
+<text x="1400" y="465" text-anchor="end"
+      fill="#FFB86B"
+      font-family="monospace" font-size="13">
+  BASED IN GERMANY
+</text>
+
+</svg>
+
