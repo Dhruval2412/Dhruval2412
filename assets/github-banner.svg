@@ -71,6 +71,18 @@
       animation: float 5s ease-in-out infinite;
     }
   </style>
+     
+<!-- Advanced data-flow animations -->
+
+<filter id="particleGlow">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge>
+    <feMergeNode in="blur"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+
+
 </defs>
 
 <!-- BACKGROUND -->
