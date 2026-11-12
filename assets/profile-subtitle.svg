@@ -1,0 +1,17 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900" height="65"
+     viewBox="0 0 900 65">
+
+  <text
+    x="0"
+    y="42"
+    text-anchor="start"
+    fill="#B69CFF"
+    font-family="Arial, sans-serif"
+    font-size="29"
+    font-weight="600">
+    Data Analytics · SAP Engineering · Applied AI
+  </text>
+
+</svg>
