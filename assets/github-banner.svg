@@ -229,6 +229,93 @@
 
   <circle class="node" cx="1322" cy="199"
           r="4" fill="#FFFFFF"/>
+     
+<!-- DATA PARTICLES: SOURCE TO PROCESS -->
+<g filter="url(#particleGlow)">
+
+  <circle r="5" fill="#FFB86B">
+    <animateMotion
+      dur="3s"
+      repeatCount="indefinite"
+      path="M970 245 L1010 245 L1190 245"/>
+  </circle>
+
+  <circle r="4" fill="#A78BFA">
+    <animateMotion
+      dur="3s"
+      begin="1s"
+      repeatCount="indefinite"
+      path="M970 260 L1010 260 L1190 260"/>
+  </circle>
+
+  <circle r="4" fill="#FFFFFF">
+    <animateMotion
+      dur="3s"
+      begin="2s"
+      repeatCount="indefinite"
+      path="M970 230 L1010 230 L1190 230"/>
+  </circle>
+
+</g>
+
+<!-- PROCESSING PULSE -->
+<circle cx="1100" cy="245" r="13"
+        fill="#FFB86B" opacity=".12">
+  <animate attributeName="r"
+           values="8;20;8"
+           dur="2s"
+           repeatCount="indefinite"/>
+  <animate attributeName="opacity"
+           values=".1;.4;.1"
+           dur="2s"
+           repeatCount="indefinite"/>
+</circle>
+
+<!-- INSIGHT HIGHLIGHT -->
+<circle cx="1322" cy="199" r="12"
+        fill="#A78BFA" opacity=".15">
+  <animate attributeName="r"
+           values="8;19;8"
+           dur="2.5s"
+           repeatCount="indefinite"/>
+</circle>
+
+<!-- ANIMATED DATA CHART -->
+<g fill="#FFB86B">
+  <rect x="1230" y="269" width="17" height="38" rx="3">
+    <animate attributeName="height"
+             values="25;48;25"
+             dur="2s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y"
+             values="282;259;282"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="1258" y="238" width="17" height="69" rx="3">
+    <animate attributeName="height"
+             values="45;75;45"
+             dur="2.4s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y"
+             values="262;232;262"
+             dur="2.4s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <rect x="1286" y="253" width="17" height="54" rx="3">
+    <animate attributeName="height"
+             values="35;65;35"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+    <animate attributeName="y"
+             values="272;242;272"
+             dur="2.2s"
+             repeatCount="indefinite"/>
+  </rect>
+</g>
+
 
 </g>
 
