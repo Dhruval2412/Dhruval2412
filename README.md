@@ -9,7 +9,7 @@
 
 <h2>Dhruval Makwana</h2>
 
-<h3>
+<h3 style="color: #B69CFF;">
   Data Analytics · SAP Engineering · Applied AI
 </h3>
 
