@@ -7,8 +7,6 @@
   />
 </p>
 
-<h2>Dhruval Makwana</h2>
-
 <p>
   <img
     src="./assets/profile-subtitle.svg"
