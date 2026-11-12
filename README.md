@@ -10,7 +10,7 @@
 <h2>Dhruval Makwana</h2>
 
 <h3>
-   <font color="#B69CFF">
+  <font color="#B69CFF">
     Data Analytics · SAP Engineering · Applied AI
   </font>
 </h3>
@@ -27,7 +27,7 @@
 </p>
 
 <p>
-  📍 Mannheim,Germany 🇩🇪
+  📍 Mannheim, Germany 🇩🇪
 </p>
 
 <p>
