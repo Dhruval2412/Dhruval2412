@@ -9,11 +9,13 @@
 
 <h2>Dhruval Makwana</h2>
 
-<h3>
-  <font color="#B69CFF">
-    Data Analytics · SAP Engineering · Applied AI
-  </font>
-</h3>
+<p>
+  <img
+    src="./assets/profile-subtitle.svg"
+    alt="Data Analytics · SAP Engineering · Applied AI"
+    width="100%"
+  />
+</p>
 
 <p>
   M.Sc. SAP Engineering & Analytics student at
