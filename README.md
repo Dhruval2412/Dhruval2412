@@ -9,8 +9,10 @@
 
 <h2>Dhruval Makwana</h2>
 
-<h3 style="color: #B69CFF;">
-  Data Analytics · SAP Engineering · Applied AI
+<h3>
+   <font color="#B69CFF">
+    Data Analytics · SAP Engineering · Applied AI
+  </font>
 </h3>
 
 <p>
