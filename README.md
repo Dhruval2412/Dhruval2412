@@ -7,14 +7,6 @@
   />
 </p>
 
-<p align="center">
-  <img
-    src="./assets/github-banner.svg"
-    alt="Dhruval Makwana - Data Intelligence"
-    width="100%"
-  />
-</p>
-
 <h2>Dhruval Makwana</h2>
 
 <h3>
