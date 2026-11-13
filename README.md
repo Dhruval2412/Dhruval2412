@@ -36,3 +36,37 @@
   <code>Data Engineering</code>
   <code>Applied AI</code>
 </p>
+
+<p>
+  <img src="./assets/technical-arsenal.svg"
+       width="100%"
+       alt="Technical Arsenal - Technologies and Tools"/>
+</p>
+
+<h3>01 / PROGRAMMING & DEVELOPMENT</h3>
+
+<p>
+  <code>Java</code>
+  <code>Python</code>
+  <code>JavaScript</code>
+  <code>Spring Boot</code>
+  <code>React</code>
+  <code>Angular</code>
+</p>
+
+<h3>02 / DATA & VISUALIZATION</h3>
+
+<p>
+  <code>Tableau</code>
+  <code>PostgreSQL</code>
+</p>
+
+<h3>03 / CURRENTLY LEARNING</h3>
+
+<p>
+  <code>SQL</code>
+  <code>Machine Learning</code>
+  <code>Docker</code>
+  <code>Data Pipelines</code>
+</p>
+
