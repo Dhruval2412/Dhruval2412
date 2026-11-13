@@ -25,11 +25,6 @@
   transforming business data into meaningful insights
   through analytics, engineering and AI.
 </p>
-
-<p>
-  📍 Mannheim, Germany 🇩🇪
-</p>
-
 <p>
   <code>Analytics</code>
   <code>SAP</code>
